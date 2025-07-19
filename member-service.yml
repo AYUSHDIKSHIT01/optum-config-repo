@@ -13,6 +13,8 @@ spring:
       minimum-idle: 5
       maximum-pool-size: 20
       idle-timeout: 30000
+      pool-name: HikariPool-Optum
+      auto-commit: true
   jpa:
     hibernate:
       ddl-auto: update
