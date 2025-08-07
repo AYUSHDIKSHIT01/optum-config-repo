@@ -25,7 +25,6 @@ custom:
         group-id: notif-group
         topic: notifications
     
-      
 eureka:
   client:
     register-with-eureka: true
