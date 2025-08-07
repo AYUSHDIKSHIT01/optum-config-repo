@@ -10,8 +10,9 @@ spring:
       ddl-auto: update
     show:sql: true
 
+spring:
   kafka:
-    bootstrap-server: localhost:9092
+    bootstrap-servers: localhost:9092
     consumer:
       group-id: notification-group
       auto-offset-reset: earliest
